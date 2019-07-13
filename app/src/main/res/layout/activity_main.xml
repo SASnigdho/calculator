@@ -15,6 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:textSize="40sp"
+            android:textColor="@color/inputTextColor"
             android:gravity="end"
             android:ellipsize="start"
             android:singleLine="true"
@@ -25,6 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:textSize="30sp"
+            android:textColor="@color/resultTextColorGreen"
             android:gravity="end"
             android:ellipsize="end"
             android:singleLine="true"
@@ -181,10 +183,11 @@
                     android:text="0"
             />
 
-            <TextView
+            <ImageView
                     android:id="@+id/back_tv_Id"
                     style="@style/NumberButtonStyle"
-                    android:text="BACK"
+                    android:src="@drawable/back_button"
+                    android:scaleType="center"
             />
 
             <Button
